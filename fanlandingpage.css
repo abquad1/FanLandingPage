@@ -1,0 +1,631 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body,html{
+	height: 100vh;
+	width: 100%;
+	background-color: #fff;
+}
+
+#navbar{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+#navbar .col-md-4{
+	margin-top: 20px;
+}
+
+#navbar .col-md-4 .BuyMe{
+	color: #48C4A0;
+	font-weight: 700;
+	margin-top: auto;
+}
+
+#navbar #responsive-menu
+
+#navbar #responsive-menu {
+	display: inline-block;
+}
+
+#navbar .menu-item{
+	display: inline;
+}
+
+#navbar .menu-item a{
+	color: black;
+	text-decoration: none;
+	margin-right: 10px;
+	font-size: 13px;
+}
+
+#navbar #menu-expand-collapse{
+	display: none;
+	cursor: pointer;
+}
+
+#navbar #user {
+	display: flex;
+	flex-direction: row;
+}
+
+#navbar #user .form-control{
+	width: 200px;
+	font-size: 12px;
+	padding-left: 50px;
+}
+
+#navbar #user .la-search{
+	position: absolute;
+	left: 40px;
+}
+
+#navbar #user i{
+	font-size: 22px;
+	color: #48C4A0;		
+}
+
+#navbar .col-md-4 .form-group{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: -05px;
+}
+
+
+/*shop section*/
+
+
+#shop {
+	height: 350px;
+}
+
+#shop h1{
+	color: #000;
+	font-weight: 700;
+}
+
+#shop p{
+	font-size: 10px;
+}
+
+#shop .btn{
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#shop .col-md-10 .img-responsive{
+	height: 500px;
+	position: relative;
+	left: 40%;
+	bottom: 350px;
+}
+
+
+#fans ul{
+	list-style: none;
+	display: inline-flex;
+	margin-left: 100px;
+}
+
+#fans li a{
+	color: #aab;
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+#fans li a.active{
+		color: #48C4A0
+	}
+
+	#fans li a:hover{
+		text-decoration: none;
+	}
+
+#fans .list  p{
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+#fans .list  h6{
+	font-size: 12px;
+	font-weight: bolder;
+
+}
+
+#fans .list .jumbotron{
+	height: 300px;
+	width: 300px;
+	padding: 10px;
+}
+
+#fans .list{
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 40px;
+	margin-left: 100px;
+}
+
+#fans .top-left{
+	background-color: red;
+	color: #fff;
+	width: 60px;
+	border-top-left-radius: 5px;
+	position: relative;
+	top: -86%;
+	left: 0;
+	text-align: center;
+}
+
+#fans .top-left-two{
+	background-color: red;
+	color: #fff;
+	width: 60px;
+	border-top-left-radius: 5px;
+	position: relative;
+	top: -94%;
+	left: 0;
+	text-align: center;
+}
+
+#fans .top-left-green{
+	background-color: #48C4A0;
+	color: #fff;
+	width: 60px;
+	border-top-left-radius: 5px;
+	position: relative;
+	top: -86%;
+	left: 0;
+	text-align: center;
+}
+
+#fans .list .btn-group{
+	position: relative;
+	left: 0;
+	top: -35%;
+	margin-left: 12px;
+	width: 80%;
+}
+
+#fans .list .btn-group .btn{
+	background-color: #fff;
+	border: 1px solid #aaa;
+	border-top: none;
+	border-right: none;
+}
+
+#fans .btn-group .btn:nth-child(1){
+	border-left: none;
+}
+
+/*ADS SECTION*/
+
+#ads .jumbotron{
+	margin-top: 10%;
+	height: 250px;	
+}
+
+#ads h1{
+	font-weight: 700;
+	font-size: 40px;
+}
+
+#ads p:nth-child(1){
+	font-size: 13px;
+	font-weight: 300;
+}
+
+
+#ads p:nth-child(3){
+	font-size: 15px;
+	font-weight: 600;
+}
+
+#ads p:nth-child(4){
+	font-size: 12px;
+	font-weight: 300;
+	color: #48C4A0;
+}
+
+
+#ads .row .col-md-6:nth-child(2){
+	display: flex;
+	flex-direction: row;
+	margin-left: -25px;
+}
+
+#ads .row img{
+	height: 180px;
+}
+
+/*new goods section*/
+
+#NewGoods .row .col-md-4 .heading {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+#NewGoods .row .col-md-4 .item{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#NewGoods .row .col-md-4 .item p{
+	font-size: 12px;
+	font-weight: 600;
+}
+
+#NewGoods .row .col-md-4 .item h6{
+	font-size: 12px;
+	font-weight: 600;
+}
+
+#NewGoods .row .col-md-4 .item .jumbotron{
+	margin-right: 10px;
+	padding: 10px;
+}
+
+/*ceiling fan section*/
+#ceilingFan{
+	margin-top: 50px;
+}
+
+#ceilingFan .link {
+	line-height: 50px;
+}
+
+#ceilingFan .link h1{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+#ceilingFan .link div{
+	width: 180px;
+	line-height: 15px;
+}
+
+#ceilingFan .link p{
+	font-size: 12px;
+	color: #aaa
+}
+
+#ceilingFan .link .btn{
+	border: 1px solid #48C4A0;
+	color: #48C4A0;
+}
+
+#ceilingFan .row .firstFan .jumbotron,
+#ceilingFan .row .secondFan .jumbotron{
+	width: 300px;
+	height: 290px;
+	padding: 0px;
+}
+
+#ceilingFan .row .firstFan p,
+#ceilingFan .row .secondFan p{
+	font-size: 12px;
+	color: #aab;
+}
+
+#ceilingFan .row .firstFan h6,
+#ceilingFan .row .secondFan h6{
+	font-size: 12px;
+	font-weight: 700;
+}
+
+#ceilingFan .row .firstFan .top-left{
+	position: absolute;
+	top: 0;
+	left: 15px;
+	background-color: red;
+	color: #fff;
+	border-top-left-radius: 5px;
+}
+
+/*standing fan section*/
+
+#standingFan{
+	margin-top: 50px;
+}
+
+#standingFan .link {
+	line-height: 50px;
+}
+
+#standingFan .link h1{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+#standingFan .link div{
+	width: 180px;
+	line-height: 15px;
+}
+
+#standingFan .link p{
+	font-size: 12px;
+	color: #aaa
+}
+
+#standingFan .link .btn{
+	border: 1px solid #48C4A0;
+	color: #48C4A0;
+}
+
+#standingFan .row .firstFan .jumbotron,
+#standingFan .row .secondFan .jumbotron{
+	width: 300px;
+	height: 290px;
+	padding: 0px;
+}
+
+#standingFan .row .firstFan p,
+#standingFan .row .secondFan p,
+#standingFan .row .firstFan h6 span{
+	font-size: 12px;
+	color: #aab;
+}
+
+#standingFan .row .firstFan h6,
+#standingFan .row .secondFan h6{
+	font-size: 12px;
+	font-weight: 700;
+}
+
+#standingFan .row .secondFan .top-left{
+	position: absolute;
+	top: 0;
+	left: 15px;
+	background-color: #48C4A0;
+	color: #fff;
+	border-top-left-radius: 5px;
+}
+
+/*sponsors section*/
+
+#sponsors{
+	margin-top: 50px;
+}
+
+#sponsors img{
+	height: 50px;
+	margin-left: 150px;
+}
+
+/*services section*/
+
+ #service{
+	background-color: #48C4A0;
+	height: 300px;
+	margin-top: 80px;
+
+}
+
+#services label{
+	color: #fff;
+	margin-top: 0px;
+	font-size: 18px;
+}
+
+#services ul{
+	list-style: none;
+	line-height: 20px;
+}
+
+#services li a,
+#services p{
+	color: #dde;
+	font-size: 15px;
+}
+
+#services abbr{
+	color: #dde;
+	font-size: 15px;
+	text-decoration: none;	
+}
+
+#services .socials {
+	margin: auto;
+	width: 90%;
+}
+
+#services .socials i{
+	color: #fff;
+	font-size: 25px;
+}
+
+#footer{
+	text-align: center;
+}
+
+/*MOBILE VIEW*/
+@media (max-width: 768px){
+	#navbar{
+		height: 70px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	#navbar #responsive-menu-list{
+		display: none;
+		width: 20%;
+		float: left;
+	}
+
+	#navbar #menu-expand-collapse{
+		display: block;
+		font-size: 22px;
+		position: relative;
+		left: 500px;
+		top: -60px;
+	}
+
+	#navbar #user .form-control{
+	width: 200px;
+	font-size: 12px;
+	padding-left: 50px;
+	}
+
+	#navbar #user .la-search{
+	position: absolute;
+	left: 10px;
+	top: 7px;
+	}
+
+	#navbar #user .users-icon{
+		position: absolute;
+		left: 420px;
+		top: -110px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	#navbar .col-md-4 .form-group{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	left: 200px;
+	top: -110px;
+	}
+
+
+	#shop{
+		height: 250px;
+		min-width: 100%;
+	}
+
+	#shop .col-md-2{
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 200px;
+		margin-left: 33%;
+	}
+	
+	#shop .col-md-2 .btn{
+		width: 400px;
+	}
+
+	#shop .col-md-10 .img-responsive{
+		display: none;
+	}
+
+	#fans .list{
+		display: inline-grid;
+		grid-template-columns: auto auto ;
+		grid-gap: 0px;
+		margin-left: 50px;
+	}
+
+	#fans .list .jumbotron{
+		height: 300px;
+		width: 300px;
+		padding: 0px;
+
+	}
+
+	#fans second div:nth-child(3):{
+		position: absolute;
+		left: 300px;
+		bottom: 100px;
+	}
+
+	#fans .list .btn-group{
+	position: relative;
+	left: 0;
+	top: -35%;
+	margin-left: 15px;
+	width: 75%;
+	}
+
+
+	#ads .jumbotron{
+		display: inline-grid;
+		grid-template-columns: auto auto;
+		grid-gap: 30px;
+	}
+
+	#ads .col-md-6{
+		margin-top: -50px;
+	}
+
+	#ads .col-md-6 .image img{
+		height: 130px;
+	}
+
+	#ads .col-md-6 .image{
+		display: flex;
+		margin-top: 50px;
+	}
+
+	#ads p:nth-child(3){
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	
+
+	#NewGoods  .col-md-4  .item  p,
+	#NewGoods  .col-md-4  .item  h6 {
+		position: relative;
+		right: 100px;
+		top: 0;
+		text-align: justify;	
+	}
+
+	#ceilingFan .row,
+	#standingFan .row{
+		width: 70%;
+		margin: auto;
+		padding: 10px;
+	}
+
+	#ceilingFan .row .link,
+	#standingFan .row .link{
+		text-align: center;
+	}
+
+	#ceilingFan .row .link .btn,
+	#standingFan .row .link .btn{
+		margin-bottom: 15px;
+	}
+
+
+	#service{
+		height: 75vh;
+	}
+
+	#services .row{
+		display: inline-grid;
+		grid-template-columns: auto auto auto;
+	}
+
+	#services .row .col-md-3:nth-child(3),
+	#services .row .col-md-3:nth-child(1)
+	{
+		margin-left: 40px;
+	}
+
+	#services .row .col-md-3:nth-child(4){
+		position: relative;
+		left: 80%;
+		top: 0;
+		text-align: center;
+	}
+
+	#sponsors{
+		display: none;
+	}
+
+
+}
